@@ -2,8 +2,8 @@
 
 source regions.sh
 
-for region in "${PYPY35_REGIONS[@]}"; do
-  bucket_name="iopipe-layers-${region}"
+for region in "${PYPY36_REGIONS[@]}"; do
+  bucket_name="pypy-iopipe-layers-${region}"
 
   echo "Creating bucket ${bucket_name}..."
 
